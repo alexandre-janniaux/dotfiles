@@ -1,0 +1,37 @@
+@-moz-document domain("wiki.nftables.org") {
+body, #content, .toc, #toc, .portlet, .pBody {
+    background: #222;
+    color: white;
+}
+
+#content, .pBody {
+   border: none;   
+}
+
+button, input[type="submit"], input[type="text"], input {
+    background: #444 !important;
+    border: none;
+    margin: 10px;
+}
+
+#ca-nstab-main>a, #ca-talk>a, #ca-viewsource>a, #ca-history>a {
+	background: #444 !important;
+    border: none;
+    margin: 10px;
+    color: orange !important;
+}
+
+pre {
+ 	color: green;
+    background-color: #111;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: darkorange;
+}
+
+a {
+    color: orange;
+    font-style: italic;
+}
+}
